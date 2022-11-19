@@ -1,0 +1,27 @@
+{
+  "name": "prismaapi",
+  "version": "1.0.0",
+  "description": "npm init -y",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Low0409/PrismaAPI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Low0409/PrismaAPI/issues"
+  },
+  "homepage": "https://github.com/Low0409/PrismaAPI#readme",
+  "dependencies": {
+    "@prisma/client": "^4.6.1",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20",
+    "prisma": "^4.6.1"
+  }
+}
